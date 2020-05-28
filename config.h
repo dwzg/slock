@@ -16,7 +16,7 @@ static const int failonclear = 0;
 static const int timetocancel = 4;
 
 /* default message */
-static const char * message = "Suckless: Software that sucks less.";
+static const char * message = "LOCKED";
 
 /* text color */
 static const char * text_color = "#ffffff";
