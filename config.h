@@ -3,10 +3,10 @@ static const char *user  = "nobody";
 static const char *group = "nobody";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT]   = "black",     /* after initialization */
-	[INPUT]  = "#005577",   /* during input */
-	[FAILED] = "#CC3333",   /* wrong password */
-	[CAPS]   = "#007755",       /* CapsLock on */
+	[INIT]   = "#282828",   /* after initialization */
+	[INPUT]  = "#689d61",   /* during input */
+	[FAILED] = "#cc241d",   /* wrong password */
+	[CAPS]   = "#b16286",   /* CapsLock on */
 };
 
 /* treat a cleared input like a wrong password (color) */
@@ -19,7 +19,7 @@ static const int timetocancel = 4;
 static const char * message = "LOCKED";
 
 /* text color */
-static const char * text_color = "#ffffff";
+static const char * text_color = "#ebdbb2";
 
 /* text size (must be a valid size) */
 static const char * font_name = "6x13";
